@@ -40,6 +40,14 @@ However, DC motors with H-bridge for drivers would be more appropriate.
 * Slicer for your 3D printer, e.g., [Slic3r](http://slic3r.org/)
 * [FlatCAM](http://flatcam.org/)
 
-## Build
+## Raspberry Pi setup
+
+* Headless setup for the Raspberry Pi 3:
+  - http://blog.self.li/post/63281257339/raspberry-pi-part-1-basic-setup-without-cables for the basic setup, finding the rpi over the network, and sshing into it.
+  - On recent images, you need to enable SSH: https://caffinc.github.io/2016/12/raspberry-pi-3-headless/
+* To find your rpi I recommend using `sudo nmap -sP -n XXX.YYY.ZZZ.0/24` where XXX, YYY, ZZZ is the ip of subnetwork. This should also show the MAC address (useful if there are multiple rpi on your network).
+* Install [Wiring Pi](http://wiringpi.com/download-and-install/)
+
+## Building the robot
 
 ToDo ...

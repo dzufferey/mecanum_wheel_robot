@@ -5,15 +5,15 @@ A small omnidirectional wheeled robot.
 The robot is designed as part of a series of tutorials covering: CAD, prototyping, and programming.
 
 The project is split among the following directories:
-- `body`
-- `code`
-- `pcb`
+- [body](body)
+- [code](code)
+- [pcb](pcb)
 
 Not everything is in this repository.
 You will also need:
 - a model for the [mecanum wheels](https://github.com/dzufferey/scadla/blob/master/src/main/scala/scadla/examples/MecanumWheel.scala)
-- a case for Raspberry Pi (look on [Tingiverse](http://www.thingiverse.com/))
-- motor bracket for NEMA 14 stepper motors (look on [Tingiverse](http://www.thingiverse.com/))
+- a case for Raspberry Pi (look on [Thingiverse](http://www.thingiverse.com/))
+- motor bracket for NEMA 14 stepper motors (look on [Thingiverse](http://www.thingiverse.com/))
 
 The [HOWTO.md](HOWTO.md) file describe how to put things together.
 
