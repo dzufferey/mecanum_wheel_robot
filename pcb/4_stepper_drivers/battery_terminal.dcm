@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Battery_Terminal
+D 2-pin screw terminal connector
+K screw terminal block
+$ENDCMP
+#
+#End Doc Library
