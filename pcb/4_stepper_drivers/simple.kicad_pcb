@@ -3,7 +3,7 @@
   (general
     (links 66)
     (no_connects 0)
-    (area 83.795 53.264999 160.095001 121.995001)
+    (area 85.014999 53.264999 160.095001 121.995001)
     (thickness 1.6)
     (drawings 4)
     (tracks 187)
@@ -239,9 +239,9 @@
       (net 15 "Net-(CTRL4-Pad2)"))
     (pad 16 thru_hole circle (at -6.35 8.89) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 14 "Net-(CTRL4-Pad1)"))
-    (model /home/zufferey/Downloads/4_stepper_drivers/resources/driver.wrl
+    (model ${KIPRJMOD}/resources/driver.wrl
       (at (xyz -0.3 -0.4 0.2))
-      (scale (xyz 0.393700787 0.393700787 0.393700787))
+      (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
     )
   )
@@ -291,9 +291,9 @@
       (net 11 "Net-(CTRL2-Pad2)"))
     (pad 16 thru_hole circle (at -6.35 8.89) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 10 "Net-(CTRL2-Pad1)"))
-    (model /home/zufferey/Downloads/4_stepper_drivers/resources/driver.wrl
+    (model ${KIPRJMOD}/resources/driver.wrl
       (at (xyz -0.3 -0.4 0.2))
-      (scale (xyz 0.393700787 0.393700787 0.393700787))
+      (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
     )
   )
@@ -343,9 +343,9 @@
       (net 9 "Net-(CTRL1-Pad2)"))
     (pad 16 thru_hole circle (at -6.35 8.89) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 8 "Net-(CTRL1-Pad1)"))
-    (model /home/zufferey/Downloads/4_stepper_drivers/resources/driver.wrl
+    (model ${KIPRJMOD}/resources/driver.wrl
       (at (xyz -0.3 -0.4 0.2))
-      (scale (xyz 0.393700787 0.393700787 0.393700787))
+      (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
     )
   )
@@ -696,9 +696,9 @@
       (net 13 "Net-(CTRL3-Pad2)"))
     (pad 16 thru_hole circle (at -6.35 8.89) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 12 "Net-(CTRL3-Pad1)"))
-    (model /home/zufferey/Downloads/4_stepper_drivers/resources/driver.wrl
+    (model ${KIPRJMOD}/resources/driver.wrl
       (at (xyz -0.3 -0.4 0.2))
-      (scale (xyz 0.393700787 0.393700787 0.393700787))
+      (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
     )
   )
@@ -1033,7 +1033,7 @@
   (segment (start 142.24 86.36) (end 142.24 81.28) (width 0.75) (layer F.Cu) (net 3))
   (segment (start 142.24 81.28) (end 137.16 81.28) (width 0.75) (layer B.Cu) (net 3) (tstamp 59721B05))
   (via (at 142.24 81.28) (size 0.6) (drill 0.5) (layers F.Cu B.Cu) (net 3))
-  (segment (start 149.86 95.25) (end 149.86 93.98) (width 0.75) (layer F.Cu) (net 3) (status 400000))
+  (segment (start 149.86 95.25) (end 149.86 93.98) (width 0.75) (layer F.Cu) (net 3))
   (segment (start 149.86 93.98) (end 142.24 86.36) (width 0.75) (layer F.Cu) (net 3) (tstamp 59771D3F))
   (segment (start 149.86 107.95) (end 137.16 107.95) (width 0.75) (layer B.Cu) (net 3))
   (segment (start 149.86 95.25) (end 149.86 107.95) (width 0.75) (layer B.Cu) (net 3))

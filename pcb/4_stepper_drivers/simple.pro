@@ -1,4 +1,4 @@
-update=Fri 21 Jul 2017 10:48:08 CEST
+update=Mon 04 Sep 2017 15:12:25 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -61,3 +59,5 @@ LibName29=valves
 LibName30=pololu_a4988
 LibName31=tsr_1-2450
 LibName32=battery_terminal
+[general]
+version=1
